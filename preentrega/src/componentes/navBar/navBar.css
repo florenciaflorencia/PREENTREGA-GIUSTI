@@ -1,0 +1,53 @@
+.nav{
+    display: grid;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    gap: 20px;
+    grid-template-areas: "title list ico";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 70px;
+    padding: 5px 15px 5px 15px;
+    user-select: none;
+}
+
+.title{
+    grid-area: title;
+    margin: auto;
+
+}
+
+.titlePri{
+    color: #373737;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.list{
+    display: inline-flex;
+    margin: 15px;
+    padding: 5px;
+    color:#665a5a;
+    list-style: none;
+    grid-area: list;
+    margin: auto;
+  
+}
+
+.listElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ddd;
+    margin: 15px;
+    font-size: 20px;
+}
+.ico{
+    grid-area: ico;
+}
+
+
+

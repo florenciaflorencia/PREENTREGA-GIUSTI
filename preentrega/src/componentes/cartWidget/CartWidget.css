@@ -1,0 +1,22 @@
+.cartIcon{
+    color: #665a5a;
+    font-size: 35px;
+}
+
+
+.cartNumber{
+    padding-top: 7px;
+    color:#665a5a;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.cartContainer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+
+}
